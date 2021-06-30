@@ -1,0 +1,30 @@
+{
+  "name": "devpay",
+  "version": "1.0.0",
+  "description": "A Node JS SDK for Devpay Payment Gateway Get your API Keys at https://devpay.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-pay/node-js-sdk.git"
+  },
+  "keywords": [
+    "devpay",
+    "nodejs",
+    "sdk"
+  ],
+  "author": "devpay-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-pay/node-js-sdk/issues"
+  },
+  "homepage": "https://github.com/dev-pay/node-js-sdk#readme",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
