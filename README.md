@@ -1,6 +1,12 @@
 # node-js-sdk
 A Node JS SDK for Devpay Payment Gateway Get your API Keys at https://devpay.io
 
+## Integration
+```
+npm install git+https://github.com/dev-pay/node-js-sdk.git
+
+```
+
 ## Usage
 ```
 const config = {
