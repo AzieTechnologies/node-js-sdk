@@ -8,7 +8,7 @@ npm install git+https://github.com/dev-pay/node-js-sdk.git
 ```
 
 ## Usage
-```
+```javascript
 const config = {
     sandbox:true,
     accessKey:"ACCESS_KEU",
