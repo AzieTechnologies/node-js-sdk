@@ -4,16 +4,17 @@ module.exports = {
     API_ENDPOINTS: {
         SANDBOX: {
             PAYSAFE: 'https://hosted.test.paysafe.com',
-            DEVPAY: 'https://sandbox-api.tilled.com'
+            TILLED: 'https://sandbox-api.tilled.com'
         },
         PAYSAFE: 'https://hosted.paysafe.com',
-        DEVPAY: 'https://api.tilled.com',
+        TILLED: 'https://api.tilled.com',
+        DEVPAY: 'https://api.devpay.io',
     },
 
     providerAPIKeyOptions: function(config){
-        var uri = this.API_ENDPOINTS.DEVPAY;
+        var uri = this.API_ENDPOINTS.TILLED;
         if(config.sandbox){
-            uri =this.API_ENDPOINTS.SANDBOX.DEVPAY;
+            uri =this.API_ENDPOINTS.SANDBOX.TILLED;
         }
         var options = {
             method: 'GET',
@@ -41,9 +42,9 @@ module.exports = {
     },
     
     paymentMethodAPIOptions: function(config){
-        var uri = this.API_ENDPOINTS.DEVPAY;
+        var uri = this.API_ENDPOINTS.TILLED;
         if(config.sandbox){
-            uri = this.API_ENDPOINTS.SANDBOX.DEVPAY;
+            uri = this.API_ENDPOINTS.SANDBOX.TILLED;
         }
         var options = {
             method: 'POST',
@@ -58,9 +59,9 @@ module.exports = {
     },
 
     paymentIntentAPIOptions: function(config){
-        var uri = this.API_ENDPOINTS.DEVPAY;
+        var uri = this.API_ENDPOINTS.TILLED;
         if(config.sandbox){
-            uri = this.API_ENDPOINTS.SANDBOX.DEVPAY;
+            uri = this.API_ENDPOINTS.SANDBOX.TILLED;
         }
         var options = {
             method: 'POST',
@@ -68,6 +69,17 @@ module.exports = {
             headers:{"Authorization":"Bearer "+config.accessKey,
                     "Content-Type":"application/json",
                     "Tilled-Account":config.accountId},
+            json: true
+        };
+        return options;
+    },
+
+    devpayPaymentIntentAPIOptions: function(){
+        var uri = this.API_ENDPOINTS.DEVPAY;
+        var options = {
+            method: 'POST',
+            uri: uri+'/v1/general/paymentintent',
+            headers:{"Content-Type":"application/json"},
             json: true
         };
         return options;
