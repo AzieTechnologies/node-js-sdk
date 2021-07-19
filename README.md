@@ -89,7 +89,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Text](links)
+* [Sign Up for Sandbox Account](links)
 * [Text](links)
 * [Text](links)
 * [Text](links)
