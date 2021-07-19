@@ -87,10 +87,7 @@ Contributions are what make the open source community such an amazing place to b
 </a>
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## API Documentation
 
-* [Sign Up for Sandbox Account](links)
-* [Text](links)
-* [Text](links)
-* [Text](links)
-* [Text](links)
+<a href="https://bit.ly/2VUDkYB/" target="_blank">
+    <img src="https://bit.ly/2VUDkYB" alt="website">
