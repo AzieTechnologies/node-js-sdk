@@ -83,13 +83,13 @@ Distributed under the MIT License. See [LICENSE](https://github.com/dev-pay/node
     <img src="https://bit.ly/3hQgnOJ" alt="twitter">
 </a>
 <a href="https://www.linkedin.com/showcase/devpay" target="_blank">
-    <img src="https://bit.ly/3qIpbJC" alt="linkedIN">
+    <img src="https://bit.ly/3kBedoc" alt="linkedIN">
 </a>
 <a href="https://www.instagram.com/devpay/" target="_blank">
-    <img src="https://bit.ly/3dCs8G5" alt="instagram">
+    <img src="https://bit.ly/2TrIXgc" alt="instagram">
 </a>
 <a href="https://devpay.io/" target="_blank">
-    <img src="https://bit.ly/3jENYwr" alt="website">
+    <img src="https://bit.ly/3rn81Bt" alt="website">
 </a>
 
 <!-- ACKNOWLEDGEMENTS -->
