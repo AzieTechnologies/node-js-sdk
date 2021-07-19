@@ -89,5 +89,5 @@ Contributions are what make the open source community such an amazing place to b
 <!-- ACKNOWLEDGEMENTS -->
 ## API Documentation
 
-<a href="https://bit.ly/2VUDkYB/" target="_blank">
+<a href="https://docs.devpay.io/" target="_blank">
     <img src="https://bit.ly/2VUDkYB" alt="website">
