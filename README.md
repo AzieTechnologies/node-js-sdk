@@ -58,7 +58,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- CONTRIBUTING -->
 ## Contributing
 
-<img align="right" width=400px src="./Read me Assets/ni8-dev-gif.gif" alt="gif">
+<img align="right" width=200px src="https://bit.ly/2W1p9kD" alt="gif">
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -72,7 +72,7 @@ Contributions are what make the open source community such an amazing place to b
 
 
 <!-- CONTACT -->
-## Connect with Devpay Inc <img src="https://bit.ly/3dAyMNf" width="60px" alt="handshake"/>
+## Connect with Devpay Inc <img src="https://bit.ly/2W1p9kD" width="60px" alt="handshake"/>
 <a href="https://twitter.com/DevpayInc" target="_blank">
     <img src="https://bit.ly/3hQgnOJ" alt="twitter">
 </a>
@@ -87,7 +87,7 @@ Contributions are what make the open source community such an amazing place to b
 </a>
 
 <!-- ACKNOWLEDGEMENTS -->
-## API Documentation
+## Click Below for our API Documentation
 
 
 <a href="https://docs.devpay.io/" target="_blank"><img align="left" width=300px src="https://bit.ly/2VUDkYB"></a>
