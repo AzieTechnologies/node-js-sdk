@@ -1,4 +1,4 @@
-# Devpay Node-js SDK
+# Devpay Node.js SDK
 A Node JS SDK for Devpay Payment Gateway Get your API Keys at https://devpay.io
 
 <!-- LOGO -->
