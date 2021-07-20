@@ -51,7 +51,7 @@ devpayClient.confirmPayment(payload).then((payment) => {
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/dev-pay/node-js-sdk/issues) for a list of proposed features (and known issues).
 
 
 
