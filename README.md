@@ -8,12 +8,14 @@ A Node JS SDK for Devpay Payment Gateway Get your API Keys at https://devpay.io
 <br>
 
 <!-- BADGES -->
-![GitHub contributors](https://img.shields.io/github/contributors/dev-pay/ios-sdk?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/dev-pay/ios-sdk?style=for-the-badge)
-![GitHub Repo stars](https://img.shields.io/github/stars/dev-pay/ios-sdk?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues-raw/dev-pay/ios-sdk?style=for-the-badge)
-<a herf="#"><img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/></a>
-<!-- [![MIT License][license-shield]](#) -->
+![GitHub followers](https://img.shields.io/github/followers/dev-pay?style=social)
+![GitHub all releases](https://img.shields.io/github/downloads/dev-pay/node-js-sdk/total?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/dev-pay/node-js-sdk?style=plastic)
+![GitHub](https://img.shields.io/github/license/dev-pay/node-js-sdk?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/dev-pay/node-js-sdk?style=plastic)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py?style=plastic)
+![Maintenance](https://img.shields.io/maintenance/yes/2021?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/dev-pay/node-js-sdk?style=plastic)
 
 ## Integration
 ```
