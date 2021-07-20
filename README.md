@@ -13,7 +13,7 @@ A Node JS SDK for Devpay Payment Gateway Get your API Keys at https://devpay.io
 ![GitHub last commit](https://img.shields.io/github/last-commit/dev-pay/node-js-sdk?style=plastic)
 ![GitHub](https://img.shields.io/github/license/dev-pay/node-js-sdk?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/dev-pay/node-js-sdk?style=plastic)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py?style=plastic)
+![node-current](https://img.shields.io/node/v/npm?style=plastic)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021?style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/dev-pay/node-js-sdk?style=plastic)
 
