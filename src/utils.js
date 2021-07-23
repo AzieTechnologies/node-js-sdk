@@ -4,24 +4,18 @@ module.exports = {
     API_ENDPOINTS: {
         SANDBOX: {
             PAYSAFE: 'https://hosted.test.paysafe.com',
-            TILLED: 'https://sandbox-api.tilled.com'
         },
         PAYSAFE: 'https://hosted.paysafe.com',
-        TILLED: 'https://api.tilled.com',
         DEVPAY: 'https://api.devpay.io',
     },
 
     providerAPIKeyOptions: function(config){
-        var uri = this.API_ENDPOINTS.TILLED;
-        if(config.sandbox){
-            uri =this.API_ENDPOINTS.SANDBOX.TILLED;
-        }
+        var uri = this.API_ENDPOINTS.DEVPAY;
         var options = {
-            method: 'GET',
-            uri: uri+'/v1/payment-providers/paysafe/api-key',
-            headers:{"Authorization":"Bearer "+config.shareableKey,
-                    "Content-Type":"application/json",
-                    "Tilled-Account":config.accountId}
+            method: 'POST',
+            uri: uri+'/v1/general.svc/paysafe/api-key',
+            headers:{"Content-Type":"application/json"},
+            json: true
         };
         return options;
     },
@@ -42,39 +36,17 @@ module.exports = {
     },
     
     paymentMethodAPIOptions: function(config){
-        var uri = this.API_ENDPOINTS.TILLED;
-        if(config.sandbox){
-            uri = this.API_ENDPOINTS.SANDBOX.TILLED;
-        }
+        var uri = this.API_ENDPOINTS.DEVPAY;
         var options = {
             method: 'POST',
-            uri: uri+'/v1/payment-methods',
-            headers:{"Authorization":"Bearer "+config.shareableKey,
-                    "Content-Type":"application/json",
-                    "Tilled-Account":config.accountId},
+            uri: uri+'/v1/paymentmethods/create',
+            headers:{"Content-Type":"application/json"},
             json: true
-
         };
         return options;
     },
 
     paymentIntentAPIOptions: function(config){
-        var uri = this.API_ENDPOINTS.TILLED;
-        if(config.sandbox){
-            uri = this.API_ENDPOINTS.SANDBOX.TILLED;
-        }
-        var options = {
-            method: 'POST',
-            uri: uri+'/v1/payment-intents',
-            headers:{"Authorization":"Bearer "+config.accessKey,
-                    "Content-Type":"application/json",
-                    "Tilled-Account":config.accountId},
-            json: true
-        };
-        return options;
-    },
-
-    devpayPaymentIntentAPIOptions: function(){
         var uri = this.API_ENDPOINTS.DEVPAY;
         var options = {
             method: 'POST',
@@ -83,5 +55,5 @@ module.exports = {
             json: true
         };
         return options;
-    }
+    },
 };
